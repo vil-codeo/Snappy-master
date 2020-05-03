@@ -1,0 +1,272 @@
+@media (min-height: 930px) {
+  .slick-dots {
+    bottom: -250px;
+  }
+}
+@media (max-width: 1140px) {
+  .slider {
+    position: static;
+    transform: none;
+  }
+  .wrapper-bg {
+    padding-top: 100px;
+  }
+  .slider {
+    margin-top: 150px;
+  }
+
+  .portfolio__item {
+    max-width: 32.5%;
+    min-height: 280px;
+    img {
+      width: 100%;
+      height: 100%;
+    }
+  }
+  .reviews__inner {
+    flex-direction: column;
+    align-items: center;
+  }
+  .reviews__item {
+    border: 1px solid #ccc;
+    border-top: none;
+    max-width: 100%;
+    &:first-child {
+      border: 1px solid #ccc;
+      border-bottom: none;
+    }
+  }
+}
+@media (max-width: 1100px) {
+  .map {
+    iframe {
+      display: none;
+    }
+  }
+  .contact__wrapper{
+      position: static;
+      transform: none;
+      background-image: url(../images/map.jpg);
+      background-repeat: no-repeat;
+      background-size: cover;
+  }
+  .contact__inner{
+      padding: 60px 0;
+      flex-direction: column;
+      align-items: center;
+  }
+  .contact__item-info,
+  .contact__item-form{
+      max-width: 80%;
+  }
+  .contact__item-form{
+      margin-bottom: 30px;
+  }
+  .about__inner {
+    flex-direction: column;
+  }
+  .about__content {
+    margin-bottom: 25px;
+  }
+  .about__item {
+    max-width: 100%;
+  }
+  .about {
+    padding: 60px 0;
+  }
+  .portfolio {
+    padding: 0 0 50px;
+  }
+  .blog__item {
+    max-width: 49%;
+    a {
+      width: 100%;
+      height: 450px;
+    }
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+    .blog__item-name {
+      height: auto;
+    }
+  }
+}
+@media (max-width: 930px) {
+  .portfolio__item {
+    max-width: 49%;
+  }
+  .blog__item-text {
+    padding-top: 20px;
+  }
+  .blog__item {
+    max-width: 49%;
+    a {
+      width: 100%;
+      height: 250px;
+    }
+  }
+}
+@media (max-width: 870px) {
+  .blog {
+    padding: 60px 0;
+  }
+  .fact__inner {
+    display: block;
+    margin-left: -10px;
+    margin-right: -10px;
+  }
+  .fact__item {
+    max-width: 100%;
+    padding: 10px 22px;
+    border-bottom: 1px solid #585858;
+  }
+  .fact__item-number {
+    font-size: 65px;
+  }
+  .skill__inner {
+    flex-direction: column;
+  }
+  .skill__content {
+    max-width: 100%;
+  }
+  .skill__content1 {
+    margin-bottom: 30px;
+  }
+}
+@media (max-width: 700px) {
+    .contact__item-input{
+        max-width: 100%;
+    }
+  .blog__item {
+    max-width: 100%;
+    a {
+      width: 100%;
+      height: 250px;
+    }
+    img {
+      object-fit: fill;
+    }
+  }
+}
+@media (max-width: 640px) {
+  .footer{
+    padding: 40px 0;
+  }
+  .footer-top__menu{
+    flex-direction: column;
+    align-items: center;
+    li{
+      width: 100%;
+      text-align: center;
+    }
+    li::before{
+      content: "";
+      display: block;
+      
+    }
+    a{
+      display: block;
+      padding: 10px 0;
+    }
+  }
+  .portfolio__item {
+    max-width: 100%;
+    margin-bottom: 30px;
+  }
+   .contact__item-info,
+  .contact__item-form{
+      max-width: 100%;
+  }
+}
+@media (max-width: 500px) {
+  .reviews__item {
+    padding: 35px 25px;
+    border-bottom: 1px solid #ccc;
+    &:first-child {
+      border-bottom: 1px solid #ccc;
+    }
+  }
+  .contact__item-form button{
+      display: block;
+      width: 100%;
+  }
+  .contact__item-info{
+      padding: 35px;
+  }
+  .skill {
+    border-bottom: none;
+  }
+  .header__social {
+    display: none;
+  }
+  .about__inner {
+    align-items: center;
+    text-align: center;
+  }
+  .slider {
+    position: static;
+    margin: 0;
+    transform: none;
+    padding-top: 50px;
+    padding-bottom: 100px;
+  }
+  .slick-dots {
+    bottom: -60px;
+  }
+  .wrapper-bg {
+    min-height: 100%;
+  }
+  .slider__content-title {
+    font-size: 30px;
+    line-height: 40px;
+    margin-bottom: 25px;
+  }
+  .slick-dots button {
+    width: 10px;
+    height: 10px;
+  }
+  .header__logo {
+    img {
+      width: 100px;
+    }
+  }
+}
+@media (max-width: 400px) {
+  .reviews__item {
+    padding: 30px 20px;
+  }
+  .blog__item a {
+    font-size: 30px;
+  }
+  .portfolio__item {
+    min-height: 200px;
+  }
+  .about__content-title {
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 36px;
+    span {
+      font-size: 18px;
+      display: block;
+      margin-top: 10px;
+      line-height: 28px;
+    }
+  }
+  .skill__content-title {
+    font-size: 28px;
+  }
+  .skill__content-main-title {
+    margin-bottom: 25px;
+  }
+  .about__content-subtitle {
+    line-height: 20px;
+  }
+  .about__content-text {
+    margin-bottom: 25px;
+  }
+  .about__content-btn {
+    max-width: 100%;
+  }
+}
